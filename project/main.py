@@ -12,4 +12,4 @@ if __name__ == '__main__':
     try:
         asyncio.run(main())
     except Exception:
-        print('exiting program...')
+        print('There are some problems running application...exiting program...')
