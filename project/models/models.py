@@ -2,9 +2,8 @@ from __future__ import annotations
 import datetime
 from sqlalchemy import CheckConstraint, ForeignKey, String, UniqueConstraint
 from sqlalchemy.orm import Mapped, mapped_column, relationship
-from pydantic import EmailStr
 
-from .config import Base
+from db.db import Base
 from .constants import BuyingStatus
 
 

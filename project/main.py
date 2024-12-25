@@ -1,6 +1,6 @@
 import asyncio
 
-from db.services import create_tables
+from services.services import create_tables
 
 
 async def main():

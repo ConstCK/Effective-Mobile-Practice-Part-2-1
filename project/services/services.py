@@ -1,5 +1,5 @@
-from db.config import engine, Base
-from .models import *
+from db.db import engine, Base
+from models.models import *
 
 # Создание всех таблиц в БД
 
